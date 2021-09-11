@@ -1,123 +1,123 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
-.hero{
-    background-color: #000000;
-    min-height: 100vh;
-    width: 100%;
-    color: #fff;
-    position: relative;
+.hero {
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
 }
-nav{
-    display: flex;
-    align-items: center;
-    padding: 20px 8%;
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
 }
-nav .menu-img{
-    width: 25px;
-    margin-right:20px;
-    cursor: pointer;
+nav .menu-img {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
 }
-nav .logo-img{
-    width: 80px;
-    margin-right:20px;
-    cursor: pointer;
+nav .logo-img {
+  width: 80px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 nav ul {
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 20px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: white;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
 }
 
-button{
-    background: #efefef;
-    height: 30px;
-    width: 60px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
   transition: background 0.5s;
 }
 
-button span{
-    background: green;
-    display: block;
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    margin-left: 2px;
-    transition: background 0.5s, margin-left 0.5s;
+button span {
+  background: green;
+  display: block;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+  transition: background 0.5s, margin-left 0.5s;
 }
 
-.lamp-container{
-    position: absolute;
-    top: -20px;
-    left: 22%;
-    width: 200px;
+.lamp-container {
+  position: absolute;
+  top: -20px;
+  left: 22%;
+  width: 200px;
 }
 
-.lamp{
-    width: 100%;
+.lamp {
+  width: 100%;
 }
-.light{
- position: absolute;
- top: 97%;
- left: 50%;
- transform: translate(-50%);
-    width: 700px;
-    margin-left: -10px;
-    opacity: 0;
-    transition: opacity 1s;
+.light {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 700px;
+  margin-left: -10px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
-.text-container{
-    max-width: 600PX;
-    margin-top: 7%;
-    margin-left: 55%;
-    opacity: 0;
+.text-container {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 55%;
+  opacity: 1;
 }
-.text-container h1{
-    font-size: 70px;
-    font-weight: 400;
+.text-container h1 {
+  font-size: 70px;
+  font-weight: 400;
 }
-.text-container a{
-    text-decoration: none;
-    background: #00986f;
-    padding: 16px 40px;
-    display: inline-block;
-    color: white;
-    font-size: 18px;
-    margin-top: 30px;
-    border-radius: 30px;
+.text-container a {
+  text-decoration: none;
+  background: #00986f;
+  padding: 16px 40px;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
 }
 
 /* .active{
     background: green;
     
 } */
-.active span{
-    margin-left: 31px ;
-    background: green;
+.active span {
+  margin-left: 31px;
+  background: green;
 }
 
-.on{
-   opacity: 1;
+.on {
+  opacity: 1;
 }
 
-.text-container1{
-opacity: 1;
+.text-container1 {
+  opacity: 1;
 }
