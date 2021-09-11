@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Web Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <!-- logo image -->
+            <!-- menu img -->
+            <img src="img/menu.jpeg" alt="" class="menu-img">
+            <img src="img/logo.jpeg" alt="" class="logo-img">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Leadership</a></li>
+                <li><a href="">ECA's</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span class="active span"></span></button>
+        </nav>
+        <div class="lamp-container">
+            <img src="img/light.jpeg" alt="" class="lamp">
+            <img src="img/light_color.jpeg" class="light" id="light">
+        </div>
+        <div class="text-container" id="textContainer">
+            <h1>Hello Bangladesh</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam ex tempore sunt libero rem
+                doloremque fuga delectus dicta ad, optio debitis hic porro ratione ipsum maiores pariatur soluta quam
+                vel voluptas natus? Accusantium deserunt accusamus quod animi veniam nihil ut odit in pariatur eos earum
+                impedit tempora, minima repudiandae?
+            </p>
+            <a href="">Check My Profile</a>
+        </div>
+    </div>
+
+
+    <script>
+        var btn = document.getElementById("btn");
+        var textContainer = document.getElementById("btn");
+        // var btn = document.getElementById("light");
+
+        function toggleBtn() {
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+            textContainer.classList("text-container1");
+        }
+    </script>
+
+</body>
+
+</html>
